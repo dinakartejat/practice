@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Iphonemobiles</h1>
+
+<div id="iphonemobiles">
+  <% @iphonemobiles.each do |iphonemobile| %>
+    <%= render iphonemobile %>
+    <p>
+      <%= link_to "Show this iphonemobile", iphonemobile %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New iphonemobile", new_iphonemobile_path %>

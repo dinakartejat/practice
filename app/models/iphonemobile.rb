@@ -1,0 +1,2 @@
+class Iphonemobile < ApplicationRecord
+end

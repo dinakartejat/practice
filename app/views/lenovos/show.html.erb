@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @lenovo %>
+
+<div>
+  <%= link_to "Edit this lenovo", edit_lenovo_path(@lenovo) %> |
+  <%= link_to "Back to lenovos", lenovos_path %>
+
+  <%= button_to "Destroy this lenovo", @lenovo, method: :delete %>
+</div>

@@ -1,0 +1,2 @@
+module SkybagsHelper
+end

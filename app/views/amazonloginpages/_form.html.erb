@@ -1,0 +1,27 @@
+<%= form_with(model: amazonloginpage) do |form| %>
+  <% if amazonloginpage.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(amazonloginpage.errors.count, "error") %> prohibited this amazonloginpage from being saved:</h2>
+
+      <ul>
+        <% amazonloginpage.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :username, style: "display: block" %>
+    <%= form.text_field :username %>
+  </div>
+
+  <div>
+    <%= form.label :lastname, style: "display: block" %>
+    <%= form.text_field :lastname %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

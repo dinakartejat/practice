@@ -1,0 +1,2 @@
+module LenovosHelper
+end

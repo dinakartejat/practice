@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Fbs</h1>
+
+<div id="fbs">
+  <% @fbs.each do |fb| %>
+    <%= render fb %>
+    <p>
+      <%= link_to "Show this fb", fb %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New fb", new_fb_path %>

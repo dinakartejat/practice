@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Amazonloginpages</h1>
+
+<div id="amazonloginpages">
+  <% @amazonloginpages.each do |amazonloginpage| %>
+    <%= render amazonloginpage %>
+    <p>
+      <%= link_to "Show this amazonloginpage", amazonloginpage %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New amazonloginpage", new_amazonloginpage_path %>
