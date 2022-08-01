@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @spotify %>
+
+<div>
+  <%= link_to "Edit this spotify", edit_spotify_path(@spotify) %> |
+  <%= link_to "Back to spotifies", spotifies_path %>
+
+  <%= button_to "Destroy this spotify", @spotify, method: :delete %>
+</div>

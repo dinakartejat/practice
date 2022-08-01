@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @dell %>
+
+<div>
+  <%= link_to "Edit this dell", edit_dell_path(@dell) %> |
+  <%= link_to "Back to dells", dells_path %>
+
+  <%= button_to "Destroy this dell", @dell, method: :delete %>
+</div>

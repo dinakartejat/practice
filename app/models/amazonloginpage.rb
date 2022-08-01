@@ -1,0 +1,2 @@
+class Amazonloginpage < ApplicationRecord
+end

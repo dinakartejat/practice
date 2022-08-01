@@ -1,0 +1,2 @@
+class Flipkart < ApplicationRecord
+end

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Flipkarts</h1>
+
+<div id="flipkarts">
+  <% @flipkarts.each do |flipkart| %>
+    <%= render flipkart %>
+    <p>
+      <%= link_to "Show this flipkart", flipkart %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New flipkart", new_flipkart_path %>

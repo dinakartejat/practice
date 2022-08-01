@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @skybag %>
+
+<div>
+  <%= link_to "Edit this skybag", edit_skybag_path(@skybag) %> |
+  <%= link_to "Back to skybags", skybags_path %>
+
+  <%= button_to "Destroy this skybag", @skybag, method: :delete %>
+</div>

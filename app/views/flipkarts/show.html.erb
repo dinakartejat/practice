@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @flipkart %>
+
+<div>
+  <%= link_to "Edit this flipkart", edit_flipkart_path(@flipkart) %> |
+  <%= link_to "Back to flipkarts", flipkarts_path %>
+
+  <%= button_to "Destroy this flipkart", @flipkart, method: :delete %>
+</div>

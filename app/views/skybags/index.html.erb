@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Skybags</h1>
+
+<div id="skybags">
+  <% @skybags.each do |skybag| %>
+    <%= render skybag %>
+    <p>
+      <%= link_to "Show this skybag", skybag %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New skybag", new_skybag_path %>

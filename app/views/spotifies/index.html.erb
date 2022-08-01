@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Spotifies</h1>
+
+<div id="spotifies">
+  <% @spotifies.each do |spotify| %>
+    <%= render spotify %>
+    <p>
+      <%= link_to "Show this spotify", spotify %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New spotify", new_spotify_path %>

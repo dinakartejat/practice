@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Dells</h1>
+
+<div id="dells">
+  <% @dells.each do |dell| %>
+    <%= render dell %>
+    <p>
+      <%= link_to "Show this dell", dell %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New dell", new_dell_path %>
