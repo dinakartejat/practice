@@ -19,3 +19,4 @@ class PantsController < ApplicationController
   end
 
 end
+,

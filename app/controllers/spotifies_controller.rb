@@ -20,3 +20,4 @@ class SpotifiesController < ApplicationController
     params.require(:spotify).permit(:gmail, :password)
   end
 end
+,

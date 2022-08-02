@@ -1,2 +1,3 @@
 class Fb < ApplicationRecord
 end
+,

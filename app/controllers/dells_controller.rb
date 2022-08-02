@@ -23,3 +23,4 @@ class DellsController < ApplicationController
        params.require(:dell).permit(:name, :ram)
      end
 end
+,

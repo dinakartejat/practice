@@ -18,3 +18,4 @@ class FlipkartsController < ApplicationController
     params.require(:flipkart).permit(:username, :password)
   end
 end
+,

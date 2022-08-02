@@ -1,2 +1,3 @@
 class Dell < ApplicationRecord
 end
+,

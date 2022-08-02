@@ -3,3 +3,4 @@ class JoinProductandProductitems < ActiveRecord::Migration[7.0]
     create_join_table :products, :productitems
   end
 end
+,

@@ -1,2 +1,3 @@
 class Pant < ApplicationRecord
 end
+,

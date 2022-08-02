@@ -20,3 +20,4 @@ class LenovosController < ApplicationController
    end
 
 end
+,

@@ -21,3 +21,4 @@ class SkybagsController < ApplicationController
     params.require(:skybag).permit(:name)
   end
 end
+,

@@ -19,3 +19,4 @@ def shirt_params
   params.require(:shirt).permit(:name)
 end
 end
+,
